@@ -1,0 +1,170 @@
+Compiling...
+RUN:
+*** BEGIN: n : 300  th :  1 ***
+[Mergesort]time: 0.000041 n= 300 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.000114 n= 300 thr= 1(ph:4)
+[Multisort]time: 0.000039 n= 300 thr= 1(ph:4) Limit=10000
+*** END: n : 300  th :  1 ***
+*** BEGIN: n : 300  th :  2 ***
+[Mergesort]time: 0.000034 n= 300 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.000286 n= 300 thr= 2(ph:4)
+[Multisort]time: 0.000088 n= 300 thr= 2(ph:4) Limit=10000
+*** END: n : 300  th :  2 ***
+*** BEGIN: n : 300  th :  4 ***
+[Mergesort]time: 0.000034 n= 300 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.000360 n= 300 thr= 4(ph:4)
+[Multisort]time: 0.000112 n= 300 thr= 4(ph:4) Limit=10000
+*** END: n : 300  th :  4 ***
+*** BEGIN: n : 300  th :  8 ***
+[Mergesort]time: 0.000034 n= 300 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.001201 n= 300 thr= 8(ph:4)
+[Multisort]time: 0.000177 n= 300 thr= 8(ph:4) Limit=10000
+*** END: n : 300  th :  8 ***
+
+*** BEGIN: n : 3000  th :  1 ***
+[Mergesort]time: 0.000374 n= 3000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.001030 n= 3000 thr= 1(ph:4)
+[Multisort]time: 0.000438 n= 3000 thr= 1(ph:4) Limit=10000
+*** END: n : 3000  th :  1 ***
+*** BEGIN: n : 3000  th :  2 ***
+[Mergesort]time: 0.000422 n= 3000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.002213 n= 3000 thr= 2(ph:4)
+[Multisort]time: 0.000458 n= 3000 thr= 2(ph:4) Limit=10000
+*** END: n : 3000  th :  2 ***
+*** BEGIN: n : 3000  th :  4 ***
+[Mergesort]time: 0.000399 n= 3000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.002858 n= 3000 thr= 4(ph:4)
+[Multisort]time: 0.000460 n= 3000 thr= 4(ph:4) Limit=10000
+*** END: n : 3000  th :  4 ***
+*** BEGIN: n : 3000  th :  8 ***
+[Mergesort]time: 0.000384 n= 3000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.003294 n= 3000 thr= 8(ph:4)
+[Multisort]time: 0.000507 n= 3000 thr= 8(ph:4) Limit=10000
+*** END: n : 3000  th :  8 ***
+
+*** BEGIN: n : 30000  th :  1 ***
+[Mergesort]time: 0.004547 n= 30000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.010248 n= 30000 thr= 1(ph:4)
+[Multisort]time: 0.004434 n= 30000 thr= 1(ph:4) Limit=10000
+*** END: n : 30000  th :  1 ***
+*** BEGIN: n : 30000  th :  2 ***
+[Mergesort]time: 0.004145 n= 30000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.017053 n= 30000 thr= 2(ph:4)
+[Multisort]time: 0.002199 n= 30000 thr= 2(ph:4) Limit=10000
+*** END: n : 30000  th :  2 ***
+*** BEGIN: n : 30000  th :  4 ***
+[Mergesort]time: 0.003841 n= 30000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.023213 n= 30000 thr= 4(ph:4)
+[Multisort]time: 0.001382 n= 30000 thr= 4(ph:4) Limit=10000
+*** END: n : 30000  th :  4 ***
+*** BEGIN: n : 30000  th :  8 ***
+[Mergesort]time: 0.003912 n= 30000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.024883 n= 30000 thr= 8(ph:4)
+[Multisort]time: 0.001527 n= 30000 thr= 8(ph:4) Limit=10000
+*** END: n : 30000  th :  8 ***
+
+*** BEGIN: n : 300000  th :  1 ***
+[Mergesort]time: 0.046021 n= 300000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.096727 n= 300000 thr= 1(ph:4)
+[Multisort]time: 0.047574 n= 300000 thr= 1(ph:4) Limit=10000
+*** END: n : 300000  th :  1 ***
+*** BEGIN: n : 300000  th :  2 ***
+[Mergesort]time: 0.045779 n= 300000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.159234 n= 300000 thr= 2(ph:4)
+[Multisort]time: 0.025386 n= 300000 thr= 2(ph:4) Limit=10000
+*** END: n : 300000  th :  2 ***
+*** BEGIN: n : 300000  th :  4 ***
+[Mergesort]time: 0.045928 n= 300000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.225249 n= 300000 thr= 4(ph:4)
+[Multisort]time: 0.015388 n= 300000 thr= 4(ph:4) Limit=10000
+*** END: n : 300000  th :  4 ***
+*** BEGIN: n : 300000  th :  8 ***
+[Mergesort]time: 0.047176 n= 300000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.262717 n= 300000 thr= 8(ph:4)
+[Multisort]time: 0.018494 n= 300000 thr= 8(ph:4) Limit=10000
+*** END: n : 300000  th :  8 ***
+
+*** BEGIN: n : 600000  th :  1 ***
+[Mergesort]time: 0.096549 n= 600000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.198113 n= 600000 thr= 1(ph:4)
+[Multisort]time: 0.099330 n= 600000 thr= 1(ph:4) Limit=10000
+*** END: n : 600000  th :  1 ***
+*** BEGIN: n : 600000  th :  2 ***
+[Mergesort]time: 0.096303 n= 600000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.320171 n= 600000 thr= 2(ph:4)
+[Multisort]time: 0.052561 n= 600000 thr= 2(ph:4) Limit=10000
+*** END: n : 600000  th :  2 ***
+*** BEGIN: n : 600000  th :  4 ***
+[Mergesort]time: 0.096629 n= 600000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.445032 n= 600000 thr= 4(ph:4)
+[Multisort]time: 0.031921 n= 600000 thr= 4(ph:4) Limit=10000
+*** END: n : 600000  th :  4 ***
+*** BEGIN: n : 600000  th :  8 ***
+[Mergesort]time: 0.096093 n= 600000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.542585 n= 600000 thr= 8(ph:4)
+[Multisort]time: 0.033475 n= 600000 thr= 8(ph:4) Limit=10000
+*** END: n : 600000  th :  8 ***
+
+*** BEGIN: n : 1000000  th :  1 ***
+[Mergesort]time: 0.165766 n= 1000000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.334690 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.171350 n= 1000000 thr= 1(ph:4) Limit=10000
+*** END: n : 1000000  th :  1 ***
+*** BEGIN: n : 1000000  th :  2 ***
+[Mergesort]time: 0.166455 n= 1000000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.556540 n= 1000000 thr= 2(ph:4)
+[Multisort]time: 0.112617 n= 1000000 thr= 2(ph:4) Limit=10000
+*** END: n : 1000000  th :  2 ***
+*** BEGIN: n : 1000000  th :  4 ***
+[Mergesort]time: 0.165942 n= 1000000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.729662 n= 1000000 thr= 4(ph:4)
+[Multisort]time: 0.064070 n= 1000000 thr= 4(ph:4) Limit=10000
+*** END: n : 1000000  th :  4 ***
+*** BEGIN: n : 1000000  th :  8 ***
+[Mergesort]time: 0.166783 n= 1000000 thr= 1(ph:4)
+[Mergesort-Paral]time: 0.879593 n= 1000000 thr= 8(ph:4)
+[Multisort]time: 0.056537 n= 1000000 thr= 8(ph:4) Limit=10000
+*** END: n : 1000000  th :  8 ***
+
+
+Try some limits:
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165673 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.057634 n= 1000000 thr= 4(ph:4) Limit=100
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165600 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.055031 n= 1000000 thr= 4(ph:4) Limit=1000
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165726 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.054896 n= 1000000 thr= 4(ph:4) Limit=10000
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165927 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.054897 n= 1000000 thr= 4(ph:4) Limit=15000
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165854 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.054766 n= 1000000 thr= 4(ph:4) Limit=25000
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165790 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.054777 n= 1000000 thr= 4(ph:4) Limit=50000
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.165877 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.057391 n= 1000000 thr= 4(ph:4) Limit=75000
+*** END: n : 1000000  th : (machine threads) ***
+
+*** BEGIN: n : 1000000  th : (machine threads) ***
+[Mergesort]time: 0.166154 n= 1000000 thr= 1(ph:4)
+[Multisort]time: 0.054819 n= 1000000 thr= 4(ph:4) Limit=100000
+*** END: n : 1000000  th : (machine threads) ***
+

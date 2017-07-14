@@ -1,0 +1,236 @@
+Compiling...
+RUN:
+*** BEGIN: n : 300  th :  1 ***
+[Serial]time: 0.000001 n= 300 thr= 1(ph:4)
+[Parallel_A]time: 0.013657 n= 300 thr= 300(ph:4)
+[Parallel_A_Opt]time: 0.012774 n= 300 thr= 300(ph:4)
+[Parallel_B]time: 0.000006 n= 300 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.000010 n= 300 thr= 1(ph:4)
+*** END: n : 300  th :  1 ***
+*** BEGIN: n : 300  th :  2 ***
+[Serial]time: 0.000001 n= 300 thr= 1(ph:4)
+[Parallel_A]time: 0.011906 n= 300 thr= 300(ph:4)
+[Parallel_A_Opt]time: 0.011347 n= 300 thr= 300(ph:4)
+[Parallel_B]time: 0.000027 n= 300 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.000030 n= 300 thr= 2(ph:4)
+*** END: n : 300  th :  2 ***
+*** BEGIN: n : 300  th :  4 ***
+[Serial]time: 0.000001 n= 300 thr= 1(ph:4)
+[Parallel_A]time: 0.010835 n= 300 thr= 300(ph:4)
+[Parallel_A_Opt]time: 0.010572 n= 300 thr= 300(ph:4)
+[Parallel_B]time: 0.000048 n= 300 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.000053 n= 300 thr= 4(ph:4)
+*** END: n : 300  th :  4 ***
+*** BEGIN: n : 300  th :  8 ***
+[Serial]time: 0.000001 n= 300 thr= 1(ph:4)
+[Parallel_A]time: 0.010376 n= 300 thr= 300(ph:4)
+[Parallel_A_Opt]time: 0.010778 n= 300 thr= 300(ph:4)
+[Parallel_B]time: 0.000107 n= 300 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.000315 n= 300 thr= 8(ph:4)
+*** END: n : 300  th :  8 ***
+
+*** BEGIN: n : 700  th :  1 ***
+[Serial]time: 0.000002 n= 700 thr= 1(ph:4)
+[Parallel_A]time: 0.028994 n= 700 thr= 700(ph:4)
+[Parallel_A_Opt]time: 0.030272 n= 700 thr= 700(ph:4)
+[Parallel_B]time: 0.000006 n= 700 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.000008 n= 700 thr= 1(ph:4)
+*** END: n : 700  th :  1 ***
+*** BEGIN: n : 700  th :  2 ***
+[Serial]time: 0.000002 n= 700 thr= 1(ph:4)
+[Parallel_A]time: 0.028576 n= 700 thr= 700(ph:4)
+[Parallel_A_Opt]time: 0.030406 n= 700 thr= 700(ph:4)
+[Parallel_B]time: 0.000045 n= 700 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.000048 n= 700 thr= 2(ph:4)
+*** END: n : 700  th :  2 ***
+*** BEGIN: n : 700  th :  4 ***
+[Serial]time: 0.000002 n= 700 thr= 1(ph:4)
+[Parallel_A]time: 0.029432 n= 700 thr= 700(ph:4)
+[Parallel_A_Opt]time: 0.029859 n= 700 thr= 700(ph:4)
+[Parallel_B]time: 0.000060 n= 700 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.000055 n= 700 thr= 4(ph:4)
+*** END: n : 700  th :  4 ***
+*** BEGIN: n : 700  th :  8 ***
+[Serial]time: 0.000002 n= 700 thr= 1(ph:4)
+[Parallel_A]time: 0.029290 n= 700 thr= 700(ph:4)
+[Parallel_A_Opt]time: 0.029575 n= 700 thr= 700(ph:4)
+[Parallel_B]time: 0.000117 n= 700 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.000188 n= 700 thr= 8(ph:4)
+*** END: n : 700  th :  8 ***
+
+*** BEGIN: n : 1000  th :  1 ***
+[Serial]time: 0.000002 n= 1000 thr= 1(ph:4)
+[Parallel_A]time: 0.042839 n= 1000 thr= 1000(ph:4)
+[Parallel_A_Opt]time: 0.042091 n= 1000 thr= 1000(ph:4)
+[Parallel_B]time: 0.000008 n= 1000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.000009 n= 1000 thr= 1(ph:4)
+*** END: n : 1000  th :  1 ***
+*** BEGIN: n : 1000  th :  2 ***
+[Serial]time: 0.000003 n= 1000 thr= 1(ph:4)
+[Parallel_A]time: 0.044327 n= 1000 thr= 1000(ph:4)
+[Parallel_A_Opt]time: 0.043981 n= 1000 thr= 1000(ph:4)
+[Parallel_B]time: 0.000030 n= 1000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.000032 n= 1000 thr= 2(ph:4)
+*** END: n : 1000  th :  2 ***
+*** BEGIN: n : 1000  th :  4 ***
+[Serial]time: 0.000003 n= 1000 thr= 1(ph:4)
+[Parallel_A]time: 0.043874 n= 1000 thr= 1000(ph:4)
+[Parallel_A_Opt]time: 0.043965 n= 1000 thr= 1000(ph:4)
+[Parallel_B]time: 0.000069 n= 1000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.000067 n= 1000 thr= 4(ph:4)
+*** END: n : 1000  th :  4 ***
+*** BEGIN: n : 1000  th :  8 ***
+[Serial]time: 0.000002 n= 1000 thr= 1(ph:4)
+[Parallel_A]time: 0.042717 n= 1000 thr= 1000(ph:4)
+[Parallel_A_Opt]time: 0.041743 n= 1000 thr= 1000(ph:4)
+[Parallel_B]time: 0.000194 n= 1000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.000144 n= 1000 thr= 8(ph:4)
+*** END: n : 1000  th :  8 ***
+
+*** BEGIN: n : 20000  th :  1 ***
+[Serial]time: 0.000062 n= 20000 thr= 1(ph:4)
+[Parallel_B]time: 0.000072 n= 20000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.000066 n= 20000 thr= 1(ph:4)
+*** END: n : 20000  th :  1 ***\n
+*** BEGIN: n : 20000  th :  2 ***
+[Serial]time: 0.000059 n= 20000 thr= 1(ph:4)
+[Parallel_B]time: 0.000096 n= 20000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.000144 n= 20000 thr= 2(ph:4)
+*** END: n : 20000  th :  2 ***\n
+*** BEGIN: n : 20000  th :  4 ***
+[Serial]time: 0.000057 n= 20000 thr= 1(ph:4)
+[Parallel_B]time: 0.000091 n= 20000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.000449 n= 20000 thr= 4(ph:4)
+*** END: n : 20000  th :  4 ***\n
+*** BEGIN: n : 20000  th :  8 ***
+[Serial]time: 0.000058 n= 20000 thr= 1(ph:4)
+[Parallel_B]time: 0.000191 n= 20000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.000343 n= 20000 thr= 8(ph:4)
+*** END: n : 20000  th :  8 ***\n
+
+*** BEGIN: n : 100000  th :  1 ***
+[Serial]time: 0.000314 n= 100000 thr= 1(ph:4)
+[Parallel_B]time: 0.000344 n= 100000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.000312 n= 100000 thr= 1(ph:4)
+*** END: n : 100000  th :  1 ***\n
+*** BEGIN: n : 100000  th :  2 ***
+[Serial]time: 0.000295 n= 100000 thr= 1(ph:4)
+[Parallel_B]time: 0.000327 n= 100000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.000553 n= 100000 thr= 2(ph:4)
+*** END: n : 100000  th :  2 ***\n
+*** BEGIN: n : 100000  th :  4 ***
+[Serial]time: 0.000294 n= 100000 thr= 1(ph:4)
+[Parallel_B]time: 0.000214 n= 100000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.000229 n= 100000 thr= 4(ph:4)
+*** END: n : 100000  th :  4 ***\n
+*** BEGIN: n : 100000  th :  8 ***
+[Serial]time: 0.000323 n= 100000 thr= 1(ph:4)
+[Parallel_B]time: 0.000454 n= 100000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.000492 n= 100000 thr= 8(ph:4)
+*** END: n : 100000  th :  8 ***\n
+
+*** BEGIN: n : 200000  th :  1 ***
+[Serial]time: 0.000617 n= 200000 thr= 1(ph:4)
+[Parallel_B]time: 0.000686 n= 200000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.000627 n= 200000 thr= 1(ph:4)
+*** END: n : 200000  th :  1 ***\n
+*** BEGIN: n : 200000  th :  2 ***
+[Serial]time: 0.000583 n= 200000 thr= 1(ph:4)
+[Parallel_B]time: 0.000595 n= 200000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.000639 n= 200000 thr= 2(ph:4)
+*** END: n : 200000  th :  2 ***\n
+*** BEGIN: n : 200000  th :  4 ***
+[Serial]time: 0.000574 n= 200000 thr= 1(ph:4)
+[Parallel_B]time: 0.000370 n= 200000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.000656 n= 200000 thr= 4(ph:4)
+*** END: n : 200000  th :  4 ***\n
+*** BEGIN: n : 200000  th :  8 ***
+[Serial]time: 0.000585 n= 200000 thr= 1(ph:4)
+[Parallel_B]time: 0.000665 n= 200000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.000939 n= 200000 thr= 8(ph:4)
+*** END: n : 200000  th :  8 ***\n
+
+*** BEGIN: n : 400000  th :  1 ***
+[Serial]time: 0.001229 n= 400000 thr= 1(ph:4)
+[Parallel_B]time: 0.001342 n= 400000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.001277 n= 400000 thr= 1(ph:4)
+*** END: n : 400000  th :  1 ***\n
+*** BEGIN: n : 400000  th :  2 ***
+[Serial]time: 0.001212 n= 400000 thr= 1(ph:4)
+[Parallel_B]time: 0.001166 n= 400000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.001231 n= 400000 thr= 2(ph:4)
+*** END: n : 400000  th :  2 ***\n
+*** BEGIN: n : 400000  th :  4 ***
+[Serial]time: 0.001230 n= 400000 thr= 1(ph:4)
+[Parallel_B]time: 0.000656 n= 400000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.001231 n= 400000 thr= 4(ph:4)
+*** END: n : 400000  th :  4 ***\n
+*** BEGIN: n : 400000  th :  8 ***
+[Serial]time: 0.001202 n= 400000 thr= 1(ph:4)
+[Parallel_B]time: 0.001033 n= 400000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.001285 n= 400000 thr= 8(ph:4)
+*** END: n : 400000  th :  8 ***\n
+
+*** BEGIN: n : 600000  th :  1 ***
+[Serial]time: 0.001868 n= 600000 thr= 1(ph:4)
+[Parallel_B]time: 0.001986 n= 600000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.001876 n= 600000 thr= 1(ph:4)
+*** END: n : 600000  th :  1 ***\n
+*** BEGIN: n : 600000  th :  2 ***
+[Serial]time: 0.001799 n= 600000 thr= 1(ph:4)
+[Parallel_B]time: 0.001736 n= 600000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.001869 n= 600000 thr= 2(ph:4)
+*** END: n : 600000  th :  2 ***\n
+*** BEGIN: n : 600000  th :  4 ***
+[Serial]time: 0.001800 n= 600000 thr= 1(ph:4)
+[Parallel_B]time: 0.000954 n= 600000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.001035 n= 600000 thr= 4(ph:4)
+*** END: n : 600000  th :  4 ***\n
+*** BEGIN: n : 600000  th :  8 ***
+[Serial]time: 0.001811 n= 600000 thr= 1(ph:4)
+[Parallel_B]time: 0.001332 n= 600000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.002239 n= 600000 thr= 8(ph:4)
+*** END: n : 600000  th :  8 ***\n
+
+*** BEGIN: n : 800000  th :  1 ***
+[Serial]time: 0.002413 n= 800000 thr= 1(ph:4)
+[Parallel_B]time: 0.002701 n= 800000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.002522 n= 800000 thr= 1(ph:4)
+*** END: n : 800000  th :  1 ***\n
+*** BEGIN: n : 800000  th :  2 ***
+[Serial]time: 0.002425 n= 800000 thr= 1(ph:4)
+[Parallel_B]time: 0.002285 n= 800000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.003564 n= 800000 thr= 2(ph:4)
+*** END: n : 800000  th :  2 ***\n
+*** BEGIN: n : 800000  th :  4 ***
+[Serial]time: 0.002360 n= 800000 thr= 1(ph:4)
+[Parallel_B]time: 0.001261 n= 800000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.002383 n= 800000 thr= 4(ph:4)
+*** END: n : 800000  th :  4 ***\n
+*** BEGIN: n : 800000  th :  8 ***
+[Serial]time: 0.002438 n= 800000 thr= 1(ph:4)
+[Parallel_B]time: 0.001675 n= 800000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.002121 n= 800000 thr= 8(ph:4)
+*** END: n : 800000  th :  8 ***\n
+
+*** BEGIN: n : 1000000  th :  1 ***
+[Serial]time: 0.003032 n= 1000000 thr= 1(ph:4)
+[Parallel_B]time: 0.003398 n= 1000000 thr= 1(ph:4)
+[Parallel_B_Opt]time: 0.003078 n= 1000000 thr= 1(ph:4)
+*** END: n : 1000000  th :  1 ***\n
+*** BEGIN: n : 1000000  th :  2 ***
+[Serial]time: 0.003036 n= 1000000 thr= 1(ph:4)
+[Parallel_B]time: 0.002919 n= 1000000 thr= 2(ph:4)
+[Parallel_B_Opt]time: 0.005009 n= 1000000 thr= 2(ph:4)
+*** END: n : 1000000  th :  2 ***\n
+*** BEGIN: n : 1000000  th :  4 ***
+[Serial]time: 0.003090 n= 1000000 thr= 1(ph:4)
+[Parallel_B]time: 0.001570 n= 1000000 thr= 4(ph:4)
+[Parallel_B_Opt]time: 0.003159 n= 1000000 thr= 4(ph:4)
+*** END: n : 1000000  th :  4 ***\n
+*** BEGIN: n : 1000000  th :  8 ***
+[Serial]time: 0.003045 n= 1000000 thr= 1(ph:4)
+[Parallel_B]time: 0.001958 n= 1000000 thr= 8(ph:4)
+[Parallel_B_Opt]time: 0.002804 n= 1000000 thr= 8(ph:4)
+*** END: n : 1000000  th :  8 ***\n
+
